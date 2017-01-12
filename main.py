@@ -1,2 +1,7 @@
+import pyttsx
+
+def speak(words):
+	
 def main():
-	pass
+	global speechengine
+	speechengine = pyttsx('nsss')
